@@ -6,16 +6,47 @@
     padding: 0px;
     font-family: 'Lato', sans-serif;
 }
-header{
-    background-color: #E554731A;
+.btn-primary{
+
+    border-radius: 5px;
+    background: #FD6E0A;
+    border:0 ;
+    color:#fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding:18px 35px;
 }
-.container{
-    width:75%;
-    max-width:1440px;
-    margin: 0 auto;
+
+
+
+/* nav related styles */
+
+nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.banner{
+nav > ul{
     display:flex;
     align-items: center;
-    justify-content: space-between;
+}
+nav li {
+    list-style: none;
+    margin-right: 50px;
+
+}
+nav a {
+    text-decoration: none;
+    color:#474747;
+
+}
+.weblogo{
+    color:  #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+.f {
+    color: #FD6E0A;
+    font-size: 45px;
+    font-weight: 800;
 }
